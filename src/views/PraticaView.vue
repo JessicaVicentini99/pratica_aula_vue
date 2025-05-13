@@ -6,6 +6,7 @@ export default {
   data(){
     return {
       msgPai: 'Essa é a mensagem do componente pai',
+      listaCores: ['red', 'blue', 'green', 'yellow'],
     }
   }
 }
@@ -17,6 +18,7 @@ export default {
     <pratica
       :mensagemPai="msgPai"
       :numeroPai="15"
+      :cores="listaCores"
     />
   </div>
 </template>

@@ -3,7 +3,8 @@ export default {
   name: 'Pratica',
   props: {
     mensagemPai: String,
-    numeroPai: Number
+    numeroPai: Number,
+    cores: Array
   },
   data() {
     return {
@@ -28,6 +29,7 @@ export default {
 </script>
 <template>
   <div>
+    {{cores}}
     <h3>Este é um componente</h3>
     <h2>{{ msg }}</h2>
     <br>
